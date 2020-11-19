@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 560px;
+}
+#head {
+    width: 560px;
+    height: 220px;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+#container input {
+    padding: 10px;
+    color: #FFF;
+    font-size: 60px;
+}
+#container input::placeholder {
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+#emeller button{
+    background-color: #f4f5f6;
+    border: none;
+    outline: none;
+    height: 110px;
+    width: 137px;
+    font-size: 30px;
+}
+#emeller button:hover {
+    background-color:#FFF;
+}
+#emeller #active {
+    background-color: darkorchid;
+}
+#emeller #active:hover {
+    background-color: darkmagenta;
+}
+#emeller #active1 {
+    background-color:hotpink ;
+    width: 278px;
+}
+#emeller #active1:hover {
+    background-color: darksalmon;
+}
